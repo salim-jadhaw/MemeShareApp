@@ -23,8 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        
+        setContentView(R.layout.activity_main)        
 
         // accessing id of all ui components from XML
         memeImageView = findViewById(R.id.memeImageView)
